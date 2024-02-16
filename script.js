@@ -20,13 +20,15 @@
         }
 
        
-    window.addEventListener('DOMContentLoaded', (event) => {
+window.addEventListener('DOMContentLoaded', (event) => {
     var tic = document.getElementById("tic");
     tic.src = "tic.wav";
-    tic.oncanplaythrough = () => {
+    
+    document.addEventListener('click', function() {
         tic.play();
-    };
+    }, { once: true }); // Ensures the event listener is triggered only once
 });
+
 
         function setPosition(position, check) {
             if (check == 'hours') {
