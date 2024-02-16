@@ -21,9 +21,10 @@
 
         let tic = document.getElementById("tic");
         tic.src = "tic.wav";
-
+        window.addEventListener('DOMContentLoaded', (event) => {
+         tic.play()
+        })
         function setPosition(position, check) {
-                  tic.play();
             if (check == 'hours') {
                 const minutePosition = atos.minutes(minute) / 360;
                 // Convert minutes to fraction of a full rotation (360 degrees)
