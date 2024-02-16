@@ -19,6 +19,10 @@
             }
         }
 
+        let tic = document.getElementsByClassName("tic")[0];
+        tic.src = "tic.wav";
+        tic.play();
+
         function setPosition(position, check) {
             if (check == 'hours') {
                 const minutePosition = atos.minutes(minute) / 360;
