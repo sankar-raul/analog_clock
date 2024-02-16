@@ -19,9 +19,10 @@
             }
         }
 
-        let tic = document.getElementById("tic");
-        tic.src = "tic.wav";
+       
         window.addEventListener('DOMContentLoaded', (event) => {
+         let tic = document.getElementById("tic");
+        tic.src = "tic.wav";
          tic.play()
         })
         function setPosition(position, check) {
