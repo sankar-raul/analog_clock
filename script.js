@@ -20,11 +20,14 @@
         }
 
        
-        window.addEventListener('DOMContentLoaded', (event) => {
-         let tic = document.getElementById("tic");
-        tic.src = "tic.wav";
-         tic.play()
-        })
+    window.addEventListener('DOMContentLoaded', (event) => {
+    var tic = document.getElementById("tic");
+    tic.src = "tic.wav";
+    tic.oncanplaythrough = () => {
+        tic.play();
+    };
+});
+
         function setPosition(position, check) {
             if (check == 'hours') {
                 const minutePosition = atos.minutes(minute) / 360;
