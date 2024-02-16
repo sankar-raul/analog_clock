@@ -19,7 +19,7 @@
             }
         }
 
-        let tic = document.getElementsByClassName("tic")[0];
+        let tic = document.getElementById("tic");
         tic.src = "tic.wav";
         tic.play();
 
