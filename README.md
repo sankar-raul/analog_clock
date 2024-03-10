@@ -29,7 +29,7 @@ The clock project is a visually appealing implementation of a clock using HTML, 
 
 ## 🌐 Live Project
 
-Embark on a journey into the colorful world of our clock project! The live project, where vibrant hues and dynamic animations come to life, can be found [here](https://sankar-coding.github.io/clock/). Experience the magic of time in a visually stunning and playful environment.
+Embark on a journey into the colorful world of our clock project! The live project, where vibrant hues and dynamic animations come to life, can be found [here](https://sankar-coding.github.io/analog_clock/). Experience the magic of time in a visually stunning and playful environment.
 
 ## 🚀 Contributing
 
