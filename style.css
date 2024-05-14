@@ -2,7 +2,7 @@ body {
             background: linear-gradient(48deg,#f59115,#fadafa);
             background: black;
             background-repeat: no-repeat;
-            height: 100vh;
+            height: 100dvh;
             display: grid;
             align-items: center;
         }
